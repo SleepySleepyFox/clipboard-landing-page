@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+@media(min-width: 900px){
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+ h2{
+    color: rgba(0, 0, 0, 0.65);
+    font-weight: bold;
+}
+ h3{
+    color: rgba(0, 0, 0, 0.65);
+    font-weight: bold;
+}
+p{
+    color: rgba(0,0,0,0.5);
+}
+
+header{
+    background-image: url(./images/bg-header-desktop.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 10%;
+}
+
+
+#header-logo{
+    position: relative;
+    left: calc(50% - 125px/2);
+    margin-top: 10%;
+}
+
+#header-h{
+    position: relative;
+    text-align: center;
+    font-family: 'Red Hat Display';
+    top: 5vh;
+    color: rgba(0, 0, 0, 0.65);
+    font-weight: bold;
+}
+
+#header-p{
+    position: relative;
+    text-align: center;
+    font-family: 'Red Hat Display';
+    top: 5vh;
+    color: rgba(0,0,0,0.5);
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.btns > button{
+    margin-right: 2vw;
+    margin-left: 2vw;
+    height: 50px;
+    width: 180px;
+    border-radius: 2em;
+    border: none;
+}
+.btn-iso{
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0 1.5px 1.5px 1px hsla(172, 51%, 25%, 0.7);
+}
+.btn-mac{
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0 1.5px 1.5px 1px hsla(234, 45%, 33%, 0.7);
+}
+
+article{
+    position: relative;
+    width: 50%;
+    left: 25%;
+    text-align: center;
+    font-family: 'Red Hat Display';
+}
+#keep-track-article{
+    padding: 0%;
+    margin: 0%;
+    padding-bottom: 15%;
+}
+
+#mac-article{
+    max-width: 100%;
+    display: inline-block;
+}
+#mac-article > div > img{
+    display: block;
+    position: relative;
+    right: 60%;
+    padding: 0%;
+    margin: 0%;
+}
+#mac-artile-div > div > h3{
+    color: rgba(0, 0, 0, 0.65);
+    font-weight: bold;
+    text-align: left;
+    padding: 0%;
+    margin: 0%;
+}
+#mac-artile-div > div > p{
+    text-align: left;
+    padding: 0%;
+    margin: 0%;
+}
+#mac-artile-div > div{
+    padding-bottom: 5em;
+}
+#mac-artile-div{
+    max-width: 40% ;
+    position: relative;
+    left: 80%;
+    bottom: 35rem;
+}
+
+#clipboard-article{
+    position: relative;
+    bottom: 30vh;
+}
+#clipboard-article > img{
+    position: relative;
+    left: calc(50% - 925px/2);
+    top: 15vh;
+}
+
+.icons{
+    position: relative;
+    right: 15vw;
+    display: flex;
+    width: 80vw;
+    justify-content: space-around;
+    padding-top: 15%;
+}
+
+.icons-second{
+    position: relative;
+    right: 15vw;
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+    padding-top: 20vh;
+}
+.icons-second > img{
+    align-self: center;
+}
+
+#download-article{
+    position: relative;
+    top: 15vh;
+}
+
+footer{
+    position: relative;
+    display: flex;
+    background-color: hsla(201, 11%, 66%, 0.3);
+    width: 100wv;
+    height: 20vh;
+    top: 25vh;
+    justify-content: center;
+}
+
+#footer-logo{
+    position: relative;
+    right: 25vw;
+    width: 100px;
+    align-self: center;
+    padding: 0%;
+    margin: 0%;
+}
+#first-block{ 
+    position: relative;
+    right: 20vw;
+    align-self: center;
+}
+#second-block{
+    position: relative;
+    right: 15vw;
+    align-self: center;
+}
+#third-block{
+    position: relative;
+    right: 10vw;
+    align-self: center;
+} 
+
+.social-media{
+    position: relative;
+    left: 30vw;
+    width: 200px;
+    align-self: center;
+}
+.social-media > img{
+    padding: 5%;
+}
+
+#first-block > p:hover, #second-block > p:hover, #third-block > p:hover{
+    transition: ease-in 0.3s;
+    color: hsla(171, 66%, 44%, 1);
+}
+
+.footer-info-mobile{
+    display: none;
+}
+}

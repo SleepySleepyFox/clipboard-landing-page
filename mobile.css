@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+@media (max-width: 900px){
+    br{
+    display: none;
+}
+     h2{
+    color: rgba(0, 0, 0, 0.65);
+    font-weight: bold;
+}
+    h3{
+    color: rgba(0, 0, 0, 0.65);
+    font-weight: bold;
+    padding: 2%;
+}
+    p{
+    color: rgba(0,0,0,0.5);
+}
+    article{
+        display: block;
+    }
+    header{
+    background-image: url(./images/bg-header-mobile.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 10vh;
+}
+    #header-logo{
+    position: relative;
+    left: calc(50% - 125px/2);
+    margin-top: 10%;
+}
+    #header-h{
+    position: relative;
+    text-align: center;
+    font-family: 'Red Hat Display';
+    top: 5vh;
+    color: rgba(0, 0, 0, 0.65);
+    font-weight: bold;
+}
+    #header-p{
+    position: relative;
+    text-align: center;
+    font-family: 'Red Hat Display';
+    top: 5vh;
+    color: rgba(0,0,0,0.5);
+    padding: 5% 2% 0% 2%;
+}
+
+   .btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+    .btns > button{
+    margin-top: 2vh;
+    height: 50px;
+    width: 180px;
+    border-radius: 2em;
+    border: none;
+}
+    .btn-iso{
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0 1.5px 1.5px 1px hsla(172, 51%, 25%, 0.7);
+}
+.btn-mac{
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0 1.5px 1.5px 1px hsla(234, 45%, 33%, 0.7);
+}
+
+    article{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    left: 25%;
+    text-align: center;
+    font-family: 'Red Hat Display';
+}
+
+    #mac-article{
+    display: flex;
+    flex-direction: column;
+}
+
+#mac-artile-div > h3{
+    color: rgba(0, 0, 0, 0.65);
+    font-weight: bold;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+    top: 200px;
+}
+#mac-artile-div > div{
+    position: relative;
+    
+}
+#mac-article > div > img{
+    display: block;
+    position: relative;
+    padding: 0%;
+    margin: 0%;
+    width: 300px;
+    align-items: center;
+}
+
+#clipboard-article{
+    padding-top: 20vh ;
+}
+
+#clipboard-article > img{
+    width: 200%;
+}
+
+#workflow-article{
+   padding-top: 20vh;
+}
+
+.icons{
+    padding-top: 5vh ;
+}
+
+.icons-second{
+    padding-top: 10vh;
+}
+.icons-second > img{
+    padding-top: 10vh;
+}
+
+#download-article{
+    padding-top: 20vh;
+    padding-bottom: 5vh;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsla(0, 1%, 86%, 0.3);
+}
+#footer-logo{
+    padding-top: 2%;
+}
+#first-block{
+    display: none;
+}
+#second-block{
+    display: none;
+}
+#third-block{
+    display: none;
+}
+.footer-info-mobile{
+    text-align: center;
+}
+.social-media > img{
+    padding: 20px;
+    
+}
+}
